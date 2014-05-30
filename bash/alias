@@ -1,0 +1,14 @@
+# ALIAS
+
+# alias l='ls -la'
+
+take () {
+	mkdir $1
+	cd $1
+}
+
+#sets up proper alias commands when called
+alias l='ls -G'
+alias ls='ls -G'
+alias ll='ls -hl'
+alias la='ls -la'

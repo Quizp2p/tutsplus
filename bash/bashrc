@@ -1,3 +1,12 @@
 # my bashrc file
 
-alias l='ls -la'
+source ~/bin/dotfiles/bash/env
+source ~/bin/dotfiles/bash/alias
+source ~/bin/dotfiles/bash/prompt
+
+source ~/.git-prompt.sh
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# added by Anaconda 1.5.1 installer
+#export PATH="/Users/reno/anaconda/bin:$PATH"

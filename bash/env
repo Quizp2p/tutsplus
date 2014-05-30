@@ -1,0 +1,5 @@
+# ENVIROMENT
+
+export PATH='/User/quiz/bin:$PATH'
+
+export EDITOR='subl -w'
